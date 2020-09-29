@@ -13,3 +13,6 @@ Array [Standard Deviation ](https://github.com/kislakba/MPIParallelCodes/blob/ma
 
 ### Matrix Vector Multiplication (Column Based) 
 [Matrix Vector Multiplication ](https://github.com/kislakba/MPIParallelCodes/blob/master/MatrixVectorMultColumnBased.c). Code is dividing the main matrix to the columns and sharing with other processors. 
+
+### Matrix Matrix Multiplication (MPI- Open-MPI)
+[Matrix Matrix Multiplication](https://github.com/kislakba/MPIParallelCodes/blob/master/Matrix_matrix_mult.c). This project split the matrix into chunks of cores. To MPI you have to declare perfect square numbers for cores. It's very inefficent way for this but I made it for learn all basics of MPI and Open MPI.    
